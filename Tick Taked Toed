@@ -1,5 +1,4 @@
-# Start with grid- Grid should be a dictionary.
-
+AH 9/15/2021 Tictaktoe
 def TicTakToe(Current_Grid ,Turn ,Move, Spaces):
     Grid = Current_Grid.replace(str(Move), Turn)
     Spaces[Move]= Turn  #Logs moves, Prevents overriding old move
